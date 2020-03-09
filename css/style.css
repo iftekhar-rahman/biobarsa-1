@@ -209,11 +209,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .header-area .mainmenu ul li:first-child:before {
   position: absolute;
-  left: -81px;
-  bottom: -48px;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-bottom: 60px solid #CECECE;
+  left: -68px;
+  bottom: -33px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #CECECE;
   border-radius: 0;
   content: "";
   -webkit-transform: rotate(135deg);
@@ -662,5 +662,52 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   @media (min-width: 992px) and (max-width: 1199px) {
     .product-leaf.leaf-bottom img {
       max-width: 270px; } }
+
+@media (max-width: 991px) {
+  .second-page-product img {
+    margin-bottom: 20px; } }
+
+.second-page-product-area {
+  padding: 90px 0 70px;
+  background-color: #F8F8F8; }
+  @media (max-width: 991px) {
+    .second-page-product-area {
+      padding: 50px 0 40px; } }
+
+.black-bg {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd; }
+  @media (max-width: 991px) {
+    .black-bg {
+      height: 350px; } }
+
+.second-page-product-text h2:after {
+  position: absolute;
+  left: -10px;
+  bottom: 7px;
+  width: 3px;
+  height: 50px;
+  background: #00AD5E;
+  content: ""; }
+
+.second-page-product-text h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  position: relative;
+  text-transform: uppercase; }
+
+.second-page-product-text h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 30px; }
+
+.second-page-product-text {
+  padding-left: 50px; }
+  @media (max-width: 991px) {
+    .second-page-product-text {
+      padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

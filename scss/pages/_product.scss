@@ -1,0 +1,55 @@
+
+
+.second-page-product{
+    img{
+        @include all-below-med{
+           margin-bottom: 20px;
+        }
+    }
+}
+.second-page-product-area{
+    padding: 90px 0 70px;
+    background-color: #F8F8F8;
+    @include all-below-med{
+        padding: 50px 0 40px;
+    }
+}
+.black-bg{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    @include all-below-med{
+        height: 350px;
+    }
+}
+.second-page-product-text h2:after {
+    position: absolute;
+    left: -10px;
+    bottom: 7px;
+    width: 3px;
+    height: 50px;
+    background: #00AD5E;
+    content: "";
+}
+
+.second-page-product-text h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.second-page-product-text h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.second-page-product-text {
+    padding-left: 50px;
+    @include all-below-med{
+        padding-left: 0;
+    }
+}
