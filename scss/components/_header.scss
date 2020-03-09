@@ -2,10 +2,10 @@
 
 // .header-area
 .header-area {
-    padding: 30px 0 20px;
+    padding: 15px 0 15px;
     .site-logo {
         img {
-            max-width: 200px;
+            max-width: 150px;
         }
     }
     .mainmenu {
@@ -17,7 +17,7 @@
                 a {
                     text-transform: uppercase;
                     color: #606060;
-                    padding: 40px 25px;
+                    padding: 30px 25px;
                 }
                 &:first-child {
                     border-left: 1px solid #E1E1E1;
@@ -46,7 +46,7 @@
 }
 .header-area .mainmenu ul li:first-child:before {
     position: absolute;
-    left: -82px;
+    left: -81px;
     bottom: -48px;
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;

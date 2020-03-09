@@ -1,7 +1,7 @@
 /*================Home Page CSS===============*/
 
 .homepage-slides-area, .single-slide-item {
-    height: 780px;
+    height: 650px;
 }
 .homepage-slides-area{
     .single-slide-item {
@@ -21,7 +21,7 @@
 
 .products-area {
     // background-color: #00AA63;
-    padding: 120px 0 170px;
+    padding: 80px 0 110px;
     position: relative;
     .owl-nav div {
         left: -65px;
@@ -51,18 +51,18 @@
 .product-dots {
     position: absolute;
     left: 50%;
-    top: 0;
-    margin-left: -600px;
+    top: -81px;
+    margin-left: -392px;
 }
 
 .product-dots img {
-    max-width: 600px;
+    max-width: 392px;
 }
 
 .product-dots.dots-bottom {
     left: auto;
     right: 50%;
-    margin-right: -600px;
+    margin-right: -420px;
     bottom: 0;
     top: auto;
     z-index: 2;
@@ -70,14 +70,14 @@
 .products-area .section-title h2 {
     display: inline-block;
     position: relative;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
     font-size: 32px;
 }
 
 .products-area .section-title h2:after {
     position: absolute;
     width: 1px;
-    height: 60px;
+    height: 40px;
     background-color: #B1E5CF;
     content: "";
     left: 0;
@@ -100,13 +100,13 @@
 }
 .product-leaf.leaf-top {
     position: absolute;
-    left: -157px;
-    top: -126px;
+    left: 0px;
+    top: -100px;
     z-index: 3;
 }
 
 .product-leaf.leaf-top img {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .single-product-item {
