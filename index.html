@@ -13,6 +13,7 @@
 
         <!--Plugins-->
         <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/slicknav.min.css" rel="stylesheet">
 
         <!--Theme specific styles-->
         <link href="css/style.css" rel="stylesheet">
@@ -33,8 +34,8 @@
                         </div>
                     </div>
                     <div class="col d-flex align-items-center justify-content-end">
-                        <div class="mainmenu text-right">
-                            <ul>
+                        <div class="mainmenu text-right d-none d-lg-block">
+                            <ul id="menu">
                                 <li><a href="#">ÍNICIO</a></li>
                                 <li><a href="#">LINHA DE PRODUTOS</a></li>
                                 <li><a href="#">QUEM SOMOS</a></li>
@@ -76,14 +77,12 @@
         <div class="product-bg position-relative overflow-hidden">
             <div class="products-area">
                 <div class="container">
-                    
-                    
                     <div class="row">
                         <div class="col position-relative">
-                            <div class="product-dots dots-top">
+                            <div class="product-dots dots-top d-none d-lg-block">
                                 <img src="img/product-dots.jpg" alt="">
                             </div>
-                            <div class="product-leaf leaf-top">
+                            <div class="product-leaf leaf-top d-none d-lg-block">
                                 <img src="img/product-leaf-1.png" alt="">
                             </div>
                             <div class="section-title text-center">
@@ -118,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-dots dots-bottom">
+                    <div class="product-dots dots-bottom d-none d-lg-block">
                         <img src="img/product-dots.jpg" alt="">
                     </div>
                 </div>
@@ -132,7 +131,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="position-relative">
-                            <div class="product-leaf leaf-bottom">
+                            <div class="product-leaf leaf-bottom d-none d-lg-block">
                                 <img src="img/product-leaf-2.png" alt="">
                             </div>
                         </div>
@@ -165,10 +164,10 @@
                 <div class="row">
                     <div class="col">
                         <div class="position-relative">
-                            <div class="footer-leaf">
+                            <div class="footer-leaf d-none d-md-block">
                                 <img src="img/footer-leaf.png" alt="">
                             </div>
-                            <div class="footer-dots left">
+                            <div class="footer-dots left d-none d-md-block">
                                 <img src="img/footer-dots.png" alt="">
                             </div>
                             <div class="footer-content">
@@ -189,7 +188,7 @@
                                     <span>Construcao de site@</span> <img src="img/footer-logo.png" alt="">
                                 </div>
                             </div>
-                            <div class="footer-dots right">
+                            <div class="footer-dots right d-none d-md-block">
                                 <img src="img/footer-dots.png" alt="">
                             </div>
                         </div>
@@ -205,6 +204,7 @@
 
         <!--Plugins-->
         <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
 
         <!--Active & Custom JS-->
         <script src="js/main.js"></script>

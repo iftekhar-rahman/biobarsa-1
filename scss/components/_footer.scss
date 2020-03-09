@@ -5,20 +5,32 @@
 
 .footer-content-left img {
     max-width: 120px;
+    @include mx-tablet{
+        max-width: 110px;
+    }
 }
 
 .footer-content-top {
     padding: 0px 0 60px;
+    @include all-below-mobile-lg{
+        padding: 0px 0 30px;
+    }
 }
 
 .footer-content-left {
     padding: 50px 40px 10px 0;
     border-right: 1px solid #fff;
+    @include all-below-mobile-lg{
+        padding: 40px 15px 10px 0;
+    }
 }
 
 .footer-content-right {
     padding: 50px 0 10px 40px;
     margin-top: 12px;
+    @include all-below-mobile-lg{
+        padding: 40px 0 10px 15px;
+    }
 }
 
 .footer-social-icons a {
@@ -69,6 +81,9 @@
 
 .footer-dots img {
     max-height: 400px;
+    @include mx-tablet{
+        max-width: 150px;
+    }
 }
 
 .footer-dots.right {
@@ -80,6 +95,13 @@
     left: -70px;
     top: -110px;
     z-index: 2;
+    @include mx-desktops{
+        left: -17px;
+    }
+    @include mx-tablet{
+        left: -15px;
+        top: -61px;
+    }
 }
 
 .footer-leaf img {

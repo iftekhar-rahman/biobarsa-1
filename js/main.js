@@ -12,8 +12,6 @@ jQuery(document).ready(function($){
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
 	});
 
-   
-
 
     $(".products-wrap").owlCarousel({
         items: 3,
@@ -31,12 +29,12 @@ jQuery(document).ready(function($){
             },
             580: {
                 items: 3,
-                margin: 3,
+                margin: 10,
                 nav: false
             },
             720: {
                 items: 3,
-                margin: 3,
+                margin: 15,
                 nav: false
             },
             960: {
@@ -49,7 +47,8 @@ jQuery(document).ready(function($){
         }
     });
 
-
+// responsive menu
+$('#menu').slicknav();
 
 
 
